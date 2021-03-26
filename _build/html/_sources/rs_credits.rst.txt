@@ -4,6 +4,16 @@
 Credits
 ========
 
+Disclaimer
+-----------
+The information set out in this web book are notes collected from different sources and are supplied to students as class handouts.  The author does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to any warranty that the contents of the item will be error-free.
+
+|br|
+|br|
+
+About the author
+-----------------
+
 .. figure:: /Figure/Fig_MarcoG.png
 	:width: 200px
 	:align: left
@@ -13,4 +23,4 @@ Credits
 |br|
 |br|
 
-(v.2103211226)
+(v.2603211915)
