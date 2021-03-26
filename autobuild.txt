@@ -1,0 +1,4 @@
+d:
+cd D:\Sphinx\PhD_Copernicus
+conda activate sphinx-env
+sphinx-autobuild --open-browser D:\Sphinx\PhD_Copernicus\ D:\Sphinx\PhD_Copernicus\_build\html
