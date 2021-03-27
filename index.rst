@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Copernicus Uptake documentation!
-===========================================
+Introduction to multispectral Earth observation
+================================================
 
 .. toctree::
    :maxdepth: 3
@@ -15,7 +15,14 @@ Welcome to Copernicus Uptake documentation!
    rs_imageanalysis.rst
    rs_satelliteimages.rst
    rs_casestudies.rst
-   rs_credits.rst
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: About:
+
+   author.rst
+   disclaimer.rst
 
 
 Indices and tables

@@ -1,8 +1,8 @@
 .. include:: html_lat.txt
 
 
-Access to Copernicus satellite images for free
-===============================================
+Free and open Copernicus satellite images
+==========================================
 
 Sentinel Hub EO Browser
 ------------------------
