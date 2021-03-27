@@ -18,9 +18,9 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PhD Copernicus Uptake'
-copyright = '2020, Marco Gianinetto'
+copyright = '2020-2021, Marco Gianinetto'
 author = 'Marco Gianinetto'
-release = 'preview'
+#release = '2021'
 
 # -- General configuration ---------------------------------------------------
 
@@ -70,7 +70,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': False,
     'style_external_links': True,
-    'collapse_navigation': False
+    'collapse_navigation': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

@@ -3,11 +3,11 @@
 
 .. _Fundamentals-of-remote-sensing-and-Earth-observation:
 
-Main features of optical satellites
-====================================
+Main characteristics of optical satellites
+===========================================
 
 Remote sensing, Earth observation and GIS
------------------------------------------
+------------------------------------------
 Remote sensing and Earth observation are often used interchangeably, but they refer to different concepts:
 
 **Remote sensing** is the

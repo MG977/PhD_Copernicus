@@ -8,7 +8,7 @@ Introduction to multispectral Earth observation
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
+   :caption: Contents
    :numbered:
 
    rs_fundamentals.rst
@@ -19,15 +19,7 @@ Introduction to multispectral Earth observation
 
 .. toctree::
    :maxdepth: 1
-   :caption: About:
+   :caption: About
 
    author.rst
    disclaimer.rst
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
