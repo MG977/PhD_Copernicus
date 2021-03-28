@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Map validation &mdash; PhD Copernicus Uptake  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Introduction to Copernicus Services" href="rs_supplementary_copernicus_services.html" />
+    <link rel="prev" title="3. Free and open Copernicus satellite images" href="rs_satelliteimages.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/02_Polimi_bandiera_BN_negativo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="rs_fundamentals.html">1. Main characteristics of optical satellites</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rs_fundamentals.html#remote-sensing-earth-observation-and-gis">1.1. Remote sensing, Earth observation and GIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_fundamentals.html#satellites-for-earth-observation">1.2. Satellites for Earth observation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#satellite-orbits-and-revisit-time">1.2.1. Satellite orbits and revisit time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#digital-images-and-the-em-spectrum">1.2.2. Digital images and the EM spectrum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#spectral-characteristics">1.2.3. Spectral characteristics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#spatial-resolution-and-area-coverage">1.2.4. Spatial resolution and area coverage</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rs_fundamentals.html#copernicus-and-the-sentinels">1.3. Copernicus and the Sentinels</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#the-copernicus-programme">1.3.1. The Copernicus programme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#multispectral-sentinel-satellites">1.3.2. Multispectral Sentinel satellites</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rs_imageanalysis.html">2. Principles of image analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rs_imageanalysis.html#the-spectral-signature">2.1. The spectral signature</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#what-is-a-spectral-signature">2.1.1. What is a spectral signature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#land-cover-vs-land-use">2.1.2. Land cover vs land use</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#spectral-signatures-of-the-main-macro-land-cover-classes">2.1.3. Spectral signatures of the main macro land cover classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#how-to-measure-spectral-signatures-with-satellites">2.1.4. How to measure spectral signatures with satellites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#how-to-compare-spectral-signatures">2.1.5. How to compare spectral signatures</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rs_imageanalysis.html#spectral-indices-for-environmental-monitoring">2.2. Spectral indices for environmental monitoring</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#what-is-a-spectral-index">2.2.1. What is a spectral index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#how-spectral-indices-are-designed">2.2.2. How spectral indices are designed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rs_imageanalysis.html#automatic-land-cover-mapping">2.3. Automatic land cover mapping</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#supervised-image-classification">2.3.1. Supervised image classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_imageanalysis.html#classification-strategies">2.3.2. Classification strategies</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rs_satelliteimages.html">3. Free and open Copernicus satellite images</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rs_satelliteimages.html#sentinel-hub-eo-browser">3.1. Sentinel Hub EO Browser</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="rs_satelliteimages.html#how-to-select-the-correct-products-with-sentinel-hub-eo-browser">3.1.1. How to select the correct products with Sentinel Hub EO Browser</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_satelliteimages.html#how-to-view-the-satellite-images-with-sentinel-hub-eo-browser">3.1.2. How to view the satellite images with Sentinel Hub EO Browser</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_satelliteimages.html#how-to-download-the-data-with-sentinel-hub-eo-browser">3.1.3. How to download the data with Sentinel Hub EO Browser</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rs_satelliteimages.html#some-alternative-repositories">3.2. Some alternative repositories</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Supplementary materials</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Map validation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#precision-or-accuracy">Precision or accuracy?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-much-is-accurate-a-map">How much is accurate a map?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rs_supplementary_copernicus_services.html">Introduction to Copernicus Services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary_copernicus_services.html#copernicus-atmosphere-monitoring-service">Copernicus Atmosphere Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary_copernicus_services.html#copernicus-marine-environment-monitoring-service">Copernicus Marine Environment Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary_copernicus_services.html#copernicus-land-monitoring-service">Copernicus Land Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary_copernicus_services.html#copernicus-climate-change-service">Copernicus Climate Change Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary_copernicus_services.html#copernicus-security-service">Copernicus Security Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary_copernicus_services.html#copernicus-emergency-management-service">Copernicus Emergency Management Service</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rs_supplementary_examples.html">Examples</a></li>
+</ul>
+<p class="caption"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="author.html">The author</a></li>
+<li class="toctree-l1"><a class="reference internal" href="disclaimer.html">Disclaimer</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PhD Copernicus Uptake</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Map validation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/rs_supplementary_map_validation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="map-validation">
+<span id="id1"></span><h1>Map validation<a class="headerlink" href="#map-validation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="precision-or-accuracy">
+<h2>Precision or accuracy?<a class="headerlink" href="#precision-or-accuracy" title="Permalink to this headline">¶</a></h2>
+<p>Precision and accuracy are often used as synonyms. <strong>But they are not!</strong></p>
+<ul class="simple">
+<li><strong>Precision</strong> refers to the degree to which repeated attempts (under unchanged conditions) <em>are close to each other</em>, independent of their true value. Thus, a precise quantity might be completely wrong because biased!,</li>
+<li><strong>Accuracy</strong> refers to the degree to which repeated attempts (under unchanged conditions) <em>are close to the true value.</em> <strong>Thus, an accurate attempt is precise and not biased.</strong></li>
+</ul>
+<p>Let’s see how precision and accuracy work. Assume that two archers are participating in a tournament.</p>
+<p>The first archer always hit the same spot. He is <strong>precise</strong>. <br />
+However, his arrows are systematically displaced from the target’s centre (<a class="reference internal" href="#fig1-validation"><span class="std std-numref">Fig. 1</span></a>). Thus, the second archer is <strong>inaccurate</strong>.</p>
+<div class="figure align-center" id="id2">
+<span id="fig1-validation"></span><a class="reference internal image-reference" href="_images/Fig1_validation.png"><img alt="_images/Fig1_validation.png" src="_images/Fig1_validation.png" style="width: 328.5px; height: 285.3px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">The first archer’s shots.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>The second archer fires all his arrows grouped in the target’s centre (<a class="reference internal" href="#fig3-validation"><span class="std std-numref">Fig. 2</span></a>). <br />
+The archer is precise and unbiased. Thus, the first archer is <strong>accurate</strong>.</p>
+<div class="figure align-center" id="id3">
+<span id="fig3-validation"></span><a class="reference internal image-reference" href="_images/Fig3_validation.png"><img alt="_images/Fig3_validation.png" src="_images/Fig3_validation.png" style="width: 285.3px; height: 285.3px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">The second archer’s shots.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p>For a land cover map:</p>
+<ul class="last simple">
+<li><strong>Accuracy</strong> refers to the degree to which <em>the information on the map</em> matches the real world, <br /></li>
+<li><strong>Precision</strong> refers to how exactly is <em>the data used to create the map</em>. This is also related to its spatial resolution, spectral characteristics, or time of acquisition (see <a class="reference internal" href="rs_fundamentals.html#fundamentals-of-remote-sensing-and-earth-observation"><span class="std std-ref">Main characteristics of optical satellites</span></a>).</li>
+</ul>
+</div>
+<p><br /></p>
+</div>
+<div class="section" id="how-much-is-accurate-a-map">
+<h2>How much is accurate a map?<a class="headerlink" href="#how-much-is-accurate-a-map" title="Permalink to this headline">¶</a></h2>
+<p>Referring to the mapping process, <strong>accuracy</strong> is the most used performance metric and tells <em>“how many sites are mapped correctly.”</em></p>
+<p>Map accuracy is estimated using the <strong>confusion matrix</strong>, a table that relates the actual land cover of some KNOWN reference locations, called the <em>testing samples</em>, with their predicted values in the map. <br /></p>
+<p><a class="reference internal" href="#fig1-confmatrix"><span class="std std-numref">Fig. 3</span></a> shows an example of a confusion matrix computed for a 4-class thematic map. In this table:</p>
+<ul class="simple">
+<li>Columns represent the instances of testing samples in the actual land cover class,</li>
+<li>Rows represent the instances of testing samples in the predicted land cover class,</li>
+<li>Instances belonging to the main diagonal (green cells) are the number of testing samples classified correctly.</li>
+</ul>
+<div class="figure align-center" id="id4">
+<span id="fig1-confmatrix"></span><img alt="_images/Fig1_confmatrix.png" src="_images/Fig1_confmatrix.png" />
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Confusion matrix. Number of testing samples correctly classified.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p><a class="reference internal" href="#fig2-confmatrix"><span class="std std-numref">Fig. 4</span></a> highlights the number of misclassified testing samples (red cells). <br />
+Overall, the confusion matrix has <strong>434 testing samples.</strong></p>
+<div class="figure align-center" id="id5">
+<span id="fig2-confmatrix"></span><img alt="_images/Fig2_confmatrix.png" src="_images/Fig2_confmatrix.png" />
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Confusion matrix. Number of misclassified testing samples.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><strong>What are the testing samples?</strong> <br /></p>
+<p>To evaluate the map’s accuracy, we must compare predicted land cover classes with actual land cover classes. This is done using the testing samples, which are image pixels randomly collected, but those actual land cover is KNOWN. Results are then extended from the testing samples to the full map.</p>
+<p class="last"><strong>GUIDELINE: testing samples must be randomly collected for ALL land cover classes. There should be no less than 50 testing samples for each land cover class.</strong></p>
+</div>
+<p><br /></p>
+<p><strong>a. Overall accuracy</strong> <br />
+Suppose we want to quantify the proportion of correct predictions, without giving any insight into the single accuracy of land cover classes. <em>In other words, how many testing samples are globally labelled correctly in the classified map?</em> <br />
+It is called <strong>overall accuracy</strong> and is usually expressed as a percent, with 0% being a perfect misclassification and 100% being a perfect classification:</p>
+<div class="math notranslate nohighlight" id="equation-eqacc1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eqacc1" title="Permalink to this equation">¶</a></span>\[Overall\ accuracy=\frac{number\ of\ testing\ samples\ correctly\ classified}{total\ number\ of\ testing\ sample}\]</div>
+<p>In the example of <a class="reference internal" href="#fig1-confmatrix"><span class="std std-numref">Fig. 3</span></a> we have:</p>
+<div class="math notranslate nohighlight" id="equation-eqacc2">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eqacc2" title="Permalink to this equation">¶</a></span>\[Overall\ accuracy=\frac{65+81+85+90}{434}=74.0 \%\]</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The overall accuracy is the primary indicator used to evaluate maps.</p>
+</div>
+<p><br /></p>
+<p><strong>b. Producer’s accuracy</strong> <br />
+Suppose we want to quantify the proportion of correct predictions for each of the real-world land cover class. <em>In other words, for a given land cover class in the real world, how many testing samples are labelled correctly in the classified map?</em> <br />
+This is the accuracy from the point of view of the mapmaker (the producer). It is called <strong>producer’s accuracy</strong> and is usually expressed as a percent, with 0% being a perfect misclassification and 100% being a perfect classification:</p>
+<div class="math notranslate nohighlight" id="equation-eqacc3">
+<span class="eqno">(3)<a class="headerlink" href="#equation-eqacc3" title="Permalink to this equation">¶</a></span>\[Producer\prime s\ accuracy\ for\ class\ i=\frac{number\ of\ testing\ samples\ correctly\ classified\ in\ class\ i}{total\ number\ of\ testing\ sample\ in\ column\ i}\]</div>
+<p>In the example of <a class="reference internal" href="#fig1-confmatrix"><span class="std std-numref">Fig. 3</span></a> we have:</p>
+<div class="math notranslate nohighlight" id="equation-eqacc4">
+<span class="eqno">(4)<a class="headerlink" href="#equation-eqacc4" title="Permalink to this equation">¶</a></span>\[Producer\prime s\ accuracy\ for\ class\ A=\frac{65}{65+6+0+4}=86.7 \%\]</div>
+<div class="math notranslate nohighlight" id="equation-eqacc5">
+<span class="eqno">(5)<a class="headerlink" href="#equation-eqacc5" title="Permalink to this equation">¶</a></span>\[Producer\prime s\ accuracy\ for\ class\ B=\frac{81}{4+81+11+7}=78.6 \%\]</div>
+<div class="math notranslate nohighlight" id="equation-eqacc6">
+<span class="eqno">(6)<a class="headerlink" href="#equation-eqacc6" title="Permalink to this equation">¶</a></span>\[Producer\prime s\ accuracy\ for\ class\ C=\frac{85}{22+5+85+3}=73.9 \%\]</div>
+<div class="math notranslate nohighlight" id="equation-eqacc7">
+<span class="eqno">(7)<a class="headerlink" href="#equation-eqacc7" title="Permalink to this equation">¶</a></span>\[Producer\prime s\ accuracy\ for\ class\ D=\frac{90}{24+8+19+90}=63.8 \%\]</div>
+<p>Thus, the classifier is mapping real world class A with higher accuracy.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The producer’s accuracy is an indicator of how well the actual land cover information is mapped.</p>
+</div>
+<p><br /></p>
+<p><strong>c. User’s accuracy</strong> <br />
+Suppose we want to quantify the proportion of correct predictions for each of the mapped classes. <em>In other words, for a given class in the map, how many testing samples are really present on the ground?</em> <br />
+This is the accuracy from the point of view of the map user. It called is called <strong>user’s accuracy</strong> and is usually expressed as a percent, with 0% being a perfect misclassification and 100% being a perfect classification:</p>
+<div class="math notranslate nohighlight" id="equation-eqacc8">
+<span class="eqno">(8)<a class="headerlink" href="#equation-eqacc8" title="Permalink to this equation">¶</a></span>\[User\prime s\ accuracy\ for\ class\ i=\frac{number\ of\ testing\ samples\ correctly\ classified\ in\ class\ i}{total\ number\ of\ testing\ sample\ in\ row\ i}\]</div>
+<p>In the example of <a class="reference internal" href="#fig1-confmatrix"><span class="std std-numref">Fig. 3</span></a> we have:</p>
+<div class="math notranslate nohighlight" id="equation-eqacc9">
+<span class="eqno">(9)<a class="headerlink" href="#equation-eqacc9" title="Permalink to this equation">¶</a></span>\[User\prime s\ accuracy\ for\ class\ A=\frac{65}{65+4+22+24}=56.5 \%\]</div>
+<div class="math notranslate nohighlight" id="equation-eqacc10">
+<span class="eqno">(10)<a class="headerlink" href="#equation-eqacc10" title="Permalink to this equation">¶</a></span>\[User\prime s\ accuracy\ for\ class\ B=\frac{81}{6+81+5+8}=81.0 \%\]</div>
+<div class="math notranslate nohighlight" id="equation-eqacc11">
+<span class="eqno">(11)<a class="headerlink" href="#equation-eqacc11" title="Permalink to this equation">¶</a></span>\[User\prime s\ accuracy\ for\ class\ C=\frac{85}{0+11+85+19}=73.9 \%\]</div>
+<div class="math notranslate nohighlight" id="equation-eqacc12">
+<span class="eqno">(12)<a class="headerlink" href="#equation-eqacc12" title="Permalink to this equation">¶</a></span>\[User\prime s\ accuracy\ for\ class\ D=\frac{90}{4+7+3+90}=86.5 \%\]</div>
+<p>Thus, the classifier is predicting the map’s class A with lower accuracy.</p>
+<p>Typically, user’s and producer’s accuracy for a given land cover class are different. In the example of <a class="reference internal" href="#fig1-confmatrix"><span class="std std-numref">Fig. 3</span></a>, 86.7% of the testing samples for real-world class A are correctly identified as class A in the map (producer’s accuracy). However, only 56.5% of the areas identified as class A in the map are actually being class A on the ground.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The user’s accuracy is an indicator of how well the map describes the actual land covers.</p>
+</div>
+<p><br /></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last"><strong>Small activity</strong> <br />
+Which is the accuracy of your map? <br />
+Calculate the overall accuracy and the per-class producer’s accuracy and user’s accuracy of your own map. Try the free <a class="reference external" href="http://www.marcovanetti.com/pages/cfmatrix/" rel="noopener noreferrer" target="_blank">Confusion matrix online calculator</a>.</p>
+</div>
+<p><br /></p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">For additional information, see the practical guide on <a class="reference external" href="http://www.fao.org/3/i5601e/i5601e.pdf" rel="noopener noreferrer" target="_blank">Map Accuracy Assessment and Area Estimation</a> of <a class="reference external" href="http://www.fao.org/home/en/" rel="noopener noreferrer" target="_blank">FAO</a>.</p>
+</div>
+<p><br />
+<br /></p>
+<p>(v.2103211230)</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="rs_supplementary_copernicus_services.html" class="btn btn-neutral float-right" title="Introduction to Copernicus Services" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="rs_satelliteimages.html" class="btn btn-neutral float-left" title="3. Free and open Copernicus satellite images" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020-2021, Marco Gianinetto
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

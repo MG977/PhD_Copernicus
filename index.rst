@@ -17,10 +17,12 @@ Introduction to multispectral Earth observation
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Supplementary materials
 
-   rs_supplementary
+   rs_supplementary_map_validation.rst
+   rs_supplementary_copernicus_services.rst
+   rs_supplementary_examples.rst
 
 
 .. toctree::
