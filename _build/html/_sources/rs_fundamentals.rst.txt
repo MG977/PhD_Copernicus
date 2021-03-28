@@ -217,14 +217,14 @@ Multispectral cameras produce multispectral (=multiband) grayscale images. That 
 
 |br|
 
-.. note:: In photography, spectral bands are usually called **colour channels**. |br|
-	A smartphone takes pictures in only 3 VISIBLE colour channels:
+In photography, spectral bands are usually called **colour channels**. |br|
+A smartphone takes pictures in only 3 VISIBLE colour channels:
 
-	- Blue channel,
-	- Green channel,
-	- Red channel.
+- Red channel (R),
+- Green channel (G),
+- Blue channel (B).
 	
-	But satellites allow extending our visual perception to many more “colours”, even to wavelengths  where our eyes are blind!
+But satellites allow extending our visual perception to many more “colours”, even to wavelengths  where our eyes are blind!
 
 |br|
 
@@ -243,39 +243,46 @@ Multispectral cameras produce multispectral (=multiband) grayscale images. That 
 .. hint:: **Small activity** |br|
 	Try `Combine RGB channels <http://flaticon.sodhanalibrary.com/combine-rgb-chanels-online.html>`_ to combine greyscale satellite images into a satellite colour image:
 
-	- Download Sentinel-2 image of Venice `(Blue band) <https://drive.google.com/file/d/10rNhnS-okkBZekTnDR5CDjcZ9PztkADW/view?usp=sharing>`_,
-	- Download Sentinel-2 image of Venice `(Green band) <https://drive.google.com/file/d/1SakQNI3DDrisNKqoh1jfjxD5ffA31HQN/view?usp=sharing>`_,
-	- Download Sentinel-2 image of Venice `(Red band) <https://drive.google.com/file/d/1UWXjSDw-UZCC5nERktAOBFO-pst2buzM/view?usp=sharing>`_,
+	- Download Sentinel-2 image of Venice `(Blue spectral band) <https://drive.google.com/file/d/10rNhnS-okkBZekTnDR5CDjcZ9PztkADW/view?usp=sharing>`_,
+	- Download Sentinel-2 image of Venice `(Green spectral band) <https://drive.google.com/file/d/1SakQNI3DDrisNKqoh1jfjxD5ffA31HQN/view?usp=sharing>`_,
+	- Download Sentinel-2 image of Venice `(Red spectral band) <https://drive.google.com/file/d/1UWXjSDw-UZCC5nERktAOBFO-pst2buzM/view?usp=sharing>`_.
 
-	*What happens to colours if you mix up the bands?*
+	*What happens to colours if you mix up the spectral spectral bands?*
 
 |br|
 
-Spatial resolution and swath width
-````````````````````````````````````
+Spatial resolution and area coverage
+`````````````````````````````````````
 The spatial resolution specifies the pixel size of satellite images at the Earth surface. It describes the ability to separate small spatial details. |br|
-Depending on their image pixel size, remote sensing cameras are classified as:
+Depending on their pixel size, remote sensing cameras are classified as:
 
 - **Very high spatial resolution:** < 1 m,
 - **High spatial resolution:** 1 -5 m,
 - **Medium spatial resolution:** 5 - 100 m,
 - **Low spatial resolution:** > 100 m.
 
-The area imaged on the surface is called **swath**. Thus, the swath defines the geographic extent of a single satellite image. |br|
+.. _Fig2bis_SAT:
+.. figure:: /Figure/Fig2bis_SAT.png
+	:align: center
+
+	The London Eye (UK). The effect of spatial resolution on image detail.
+
+The area imaged on the ground is called **swath**. Thus, the swath defines the geographic extent of a single satellite image. |br|
 Generally speaking:
 
-- **Low resolution** imaging cameras have a **large swath**: up to thousands of km,
-- **Very high resolution** imaging cameras have a **small swath**: about dozen of km.
+- **Very high & high resolution** imaging cameras have a **narrow swath**: about dozen of km,
+- **Medium resolution** imaging cameras have a **large swath**: few hundreds of km,
+- **Low resolution** imaging cameras have a **wide swath**: up to thousands of km.
 
 .. _Fig2_SAT:
 .. figure:: /Figure/Fig2_SAT.png
 	:align: center
 
-	The London Eye (UK). The effect of spatial resolution on image detail and swath.
+	The London Eye (UK). The effect of spatial resolution on swath.
 
-Very **high resolution cameras** are typically needed for applications requiring great spatial detail of a particular site, such as mapping buildings damaged by an earthquake. Such cameras would generally be onboard of a low Earth orbit satellite and **have a narrow swath**. In such an orbit, images can only be acquired when the satellite passes over the area of interest.
+**Very high & high resolution cameras** are typically needed for applications requiring great spatial detail of a particular site, such as mapping buildings damaged by an earthquake. Such cameras would generally be onboard of **low Earth orbit satellites** and **have a narrow swath**. In such an orbit, nadir images can be acquired with a **low revisit time** (when the satellite overpasses the area of interest).
 
-On the opposite, geostationary satellites have **low resolution cameras with wide swath**. In such an orbit, images over the area of interest are acquired continuously. These satellites are suitable for continental and global studies.
+On the opposite, geostationary satellites have **low resolution cameras** with **wide swath**. In such an orbit, images over the area of interest are acquired with a **very high revisit time** (near real-time). These satellites are suitable for continental and global studies.
 
 *Medium resolution cameras with pixel size between 10 m and 30 m usually have a swath of about 200-300 km. They are often a good compromise for many application needs.*
 

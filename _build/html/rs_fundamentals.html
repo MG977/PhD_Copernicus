@@ -91,7 +91,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#satellite-orbits-and-revisit-time">1.2.1. Satellite orbits and revisit time</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#digital-images-and-the-em-spectrum">1.2.2. Digital images and the EM spectrum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#spectral-characteristics">1.2.3. Spectral characteristics</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#spatial-resolution-and-swath-width">1.2.4. Spatial resolution and swath width</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#spatial-resolution-and-area-coverage">1.2.4. Spatial resolution and area coverage</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#copernicus-and-the-sentinels">1.3. Copernicus and the Sentinels</a><ul>
@@ -140,7 +140,16 @@
 </ul>
 <p class="caption"><span class="caption-text">Supplementary materials</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="rs_casestudies.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rs_supplementary.html">Introduction to Copernicus Services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-atmosphere-monitoring-service">Copernicus Atmosphere Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-marine-environment-monitoring-service">Copernicus Marine Environment Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-land-monitoring-service">Copernicus Land Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-climate-change-service">Copernicus Climate Change Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-security-service">Copernicus Security Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-emergency-management-service">Copernicus Emergency Management Service</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rs_supplementary.html#examples">Examples</a></li>
 </ul>
 <p class="caption"><span class="caption-text">About</span></p>
 <ul>
@@ -375,17 +384,14 @@ See planet Earth live from the International Space Station with the <a class="re
 Try the <a class="reference external" href="https://remotesensinglab.com/visualising.html" rel="noopener noreferrer" target="_blank">Remote Sensing Virtual Lab</a> to see how the land looks like in different wavelengths (cretits: Karen Joyce).</p>
 </div>
 <p><br /></p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
 <p>In photography, spectral bands are usually called <strong>colour channels</strong>. <br />
 A smartphone takes pictures in only 3 VISIBLE colour channels:</p>
 <ul class="simple">
-<li>Blue channel,</li>
-<li>Green channel,</li>
-<li>Red channel.</li>
+<li>Red channel (R),</li>
+<li>Green channel (G),</li>
+<li>Blue channel (B).</li>
 </ul>
-<p class="last">But satellites allow extending our visual perception to many more “colours”, even to wavelengths  where our eyes are blind!</p>
-</div>
+<p>But satellites allow extending our visual perception to many more “colours”, even to wavelengths  where our eyes are blind!</p>
 <p><br /></p>
 <div class="admonition hint">
 <p class="first admonition-title">Hint</p>
@@ -403,36 +409,41 @@ You might also use this <a class="reference external" href="https://drive.google
 <p><strong>Small activity</strong> <br />
 Try <a class="reference external" href="http://flaticon.sodhanalibrary.com/combine-rgb-chanels-online.html" rel="noopener noreferrer" target="_blank">Combine RGB channels</a> to combine greyscale satellite images into a satellite colour image:</p>
 <ul class="simple">
-<li>Download Sentinel-2 image of Venice <a class="reference external" href="https://drive.google.com/file/d/10rNhnS-okkBZekTnDR5CDjcZ9PztkADW/view?usp=sharing" rel="noopener noreferrer" target="_blank">(Blue band)</a>,</li>
-<li>Download Sentinel-2 image of Venice <a class="reference external" href="https://drive.google.com/file/d/1SakQNI3DDrisNKqoh1jfjxD5ffA31HQN/view?usp=sharing" rel="noopener noreferrer" target="_blank">(Green band)</a>,</li>
-<li>Download Sentinel-2 image of Venice <a class="reference external" href="https://drive.google.com/file/d/1UWXjSDw-UZCC5nERktAOBFO-pst2buzM/view?usp=sharing" rel="noopener noreferrer" target="_blank">(Red band)</a>,</li>
+<li>Download Sentinel-2 image of Venice <a class="reference external" href="https://drive.google.com/file/d/10rNhnS-okkBZekTnDR5CDjcZ9PztkADW/view?usp=sharing" rel="noopener noreferrer" target="_blank">(Blue spectral band)</a>,</li>
+<li>Download Sentinel-2 image of Venice <a class="reference external" href="https://drive.google.com/file/d/1SakQNI3DDrisNKqoh1jfjxD5ffA31HQN/view?usp=sharing" rel="noopener noreferrer" target="_blank">(Green spectral band)</a>,</li>
+<li>Download Sentinel-2 image of Venice <a class="reference external" href="https://drive.google.com/file/d/1UWXjSDw-UZCC5nERktAOBFO-pst2buzM/view?usp=sharing" rel="noopener noreferrer" target="_blank">(Red spectral band)</a>.</li>
 </ul>
-<p class="last"><em>What happens to colours if you mix up the bands?</em></p>
+<p class="last"><em>What happens to colours if you mix up the spectral spectral bands?</em></p>
 </div>
 <p><br /></p>
 </div>
-<div class="section" id="spatial-resolution-and-swath-width">
-<h3><span class="section-number">1.2.4. </span>Spatial resolution and swath width<a class="headerlink" href="#spatial-resolution-and-swath-width" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="spatial-resolution-and-area-coverage">
+<h3><span class="section-number">1.2.4. </span>Spatial resolution and area coverage<a class="headerlink" href="#spatial-resolution-and-area-coverage" title="Permalink to this headline">¶</a></h3>
 <p>The spatial resolution specifies the pixel size of satellite images at the Earth surface. It describes the ability to separate small spatial details. <br />
-Depending on their image pixel size, remote sensing cameras are classified as:</p>
+Depending on their pixel size, remote sensing cameras are classified as:</p>
 <ul class="simple">
 <li><strong>Very high spatial resolution:</strong> &lt; 1 m,</li>
 <li><strong>High spatial resolution:</strong> 1 -5 m,</li>
 <li><strong>Medium spatial resolution:</strong> 5 - 100 m,</li>
 <li><strong>Low spatial resolution:</strong> &gt; 100 m.</li>
 </ul>
-<p>The area imaged on the surface is called <strong>swath</strong>. Thus, the swath defines the geographic extent of a single satellite image. <br />
+<div class="figure align-center" id="id12">
+<span id="fig2bis-sat"></span><img alt="_images/Fig2bis_SAT.png" src="_images/Fig2bis_SAT.png" />
+<p class="caption"><span class="caption-number">Fig. 1.2.4.1 </span><span class="caption-text">The London Eye (UK). The effect of spatial resolution on image detail.</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+<p>The area imaged on the ground is called <strong>swath</strong>. Thus, the swath defines the geographic extent of a single satellite image. <br />
 Generally speaking:</p>
 <ul class="simple">
-<li><strong>Low resolution</strong> imaging cameras have a <strong>large swath</strong>: up to thousands of km,</li>
-<li><strong>Very high resolution</strong> imaging cameras have a <strong>small swath</strong>: about dozen of km.</li>
+<li><strong>Very high &amp; high resolution</strong> imaging cameras have a <strong>narrow swath</strong>: about dozen of km,</li>
+<li><strong>Medium resolution</strong> imaging cameras have a <strong>large swath</strong>: few hundreds of km,</li>
+<li><strong>Low resolution</strong> imaging cameras have a <strong>wide swath</strong>: up to thousands of km.</li>
 </ul>
-<div class="figure align-center" id="id12">
+<div class="figure align-center" id="id13">
 <span id="fig2-sat"></span><img alt="_images/Fig2_SAT.png" src="_images/Fig2_SAT.png" />
-<p class="caption"><span class="caption-number">Fig. 1.2.4.1 </span><span class="caption-text">The London Eye (UK). The effect of spatial resolution on image detail and swath.</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 1.2.4.2 </span><span class="caption-text">The London Eye (UK). The effect of spatial resolution on swath.</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
 </div>
-<p>Very <strong>high resolution cameras</strong> are typically needed for applications requiring great spatial detail of a particular site, such as mapping buildings damaged by an earthquake. Such cameras would generally be onboard of a low Earth orbit satellite and <strong>have a narrow swath</strong>. In such an orbit, images can only be acquired when the satellite passes over the area of interest.</p>
-<p>On the opposite, geostationary satellites have <strong>low resolution cameras with wide swath</strong>. In such an orbit, images over the area of interest are acquired continuously. These satellites are suitable for continental and global studies.</p>
+<p><strong>Very high &amp; high resolution cameras</strong> are typically needed for applications requiring great spatial detail of a particular site, such as mapping buildings damaged by an earthquake. Such cameras would generally be onboard of <strong>low Earth orbit satellites</strong> and <strong>have a narrow swath</strong>. In such an orbit, nadir images can be acquired with a <strong>low revisit time</strong> (when the satellite overpasses the area of interest).</p>
+<p>On the opposite, geostationary satellites have <strong>low resolution cameras</strong> with <strong>wide swath</strong>. In such an orbit, images over the area of interest are acquired with a <strong>very high revisit time</strong> (near real-time). These satellites are suitable for continental and global studies.</p>
 <p><em>Medium resolution cameras with pixel size between 10 m and 30 m usually have a swath of about 200-300 km. They are often a good compromise for many application needs.</em></p>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
@@ -477,8 +488,8 @@ Their orbit is <code class="docutils literal notranslate"><span class="pre">Sun-
 <li>Disaster relief support,</li>
 <li>Climate change monitoring.</li>
 </ul>
-<span id="tab1-s2"></span><table border="1" class="docutils align-default" id="id13">
-<caption><span class="caption-number">Table 1.3.2.1 </span><span class="caption-text">Sentinel-2 spectral bands.</span><a class="headerlink" href="#id13" title="Permalink to this table">¶</a></caption>
+<span id="tab1-s2"></span><table border="1" class="docutils align-default" id="id14">
+<caption><span class="caption-number">Table 1.3.2.1 </span><span class="caption-text">Sentinel-2 spectral bands.</span><a class="headerlink" href="#id14" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="3%" />
 <col width="11%" />
@@ -595,9 +606,9 @@ Their orbit is <code class="docutils literal notranslate"><span class="pre">Sun-
 <p class="first admonition-title">Hint</p>
 <p class="last">See how Sentinel-2 <a class="reference external" href="https://www.esa.int/ESA_Multimedia/Videos/2016/08/Sentinel-2_s_multispectral_imager_in_action" rel="noopener noreferrer" target="_blank">collects multispectral images</a></p>
 </div>
-<div class="figure align-center" id="id14">
+<div class="figure align-center" id="id15">
 <span id="fig-s2-camera-sat"></span><a class="reference external image-reference" href="https://www.esa.int/ESA_Multimedia/Videos/2016/08/Sentinel-2_s_multispectral_imager_in_action" rel="noopener noreferrer" target="_blank"><img alt="_images/Fig_S2_camera_SAT.png" src="_images/Fig_S2_camera_SAT.png" /></a>
-<p class="caption"><span class="caption-number">Fig. 1.3.2.1 </span><span class="caption-text">Sentinel-2 multispectral imager (MSI) (credit: ESA/ATAG medialab – CC BY-SA IGO 3.0)</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 1.3.2.1 </span><span class="caption-text">Sentinel-2 multispectral imager (MSI) (credit: ESA/ATAG medialab – CC BY-SA IGO 3.0)</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
 </div>
 <p><br /></p>
 <p><strong>Sentinel-3</strong> <br />
@@ -618,8 +629,8 @@ Their orbit is <code class="docutils literal notranslate"><span class="pre">Sun-
 <li>Measuring Earth’s thermal radiation for atmospheric applications.</li>
 </ul>
 <p>The <em>Ocean and Land Colour Instrument (OLCI)</em> has a 300-meters spatial resolution in 21 spectral bands, with a swath width of 1,270 km. <a class="reference internal" href="#tab1-s3"><span class="std std-numref">Table 1.3.2.2</span></a> shows its main specifications.</p>
-<span id="tab1-s3"></span><table border="1" class="docutils align-default" id="id15">
-<caption><span class="caption-number">Table 1.3.2.2 </span><span class="caption-text">Sentinel-3 OLCI spectral bands.</span><a class="headerlink" href="#id15" title="Permalink to this table">¶</a></caption>
+<span id="tab1-s3"></span><table border="1" class="docutils align-default" id="id16">
+<caption><span class="caption-number">Table 1.3.2.2 </span><span class="caption-text">Sentinel-3 OLCI spectral bands.</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="3%" />
 <col width="12%" />
@@ -789,8 +800,8 @@ Their orbit is <code class="docutils literal notranslate"><span class="pre">Sun-
 </table>
 <p><br /></p>
 <p>The <em>Sea and Land Surface Temperature Radiometer (SLSTR)</em> instrument record the surface temperature with 1 km spatial resolution. <a class="reference internal" href="#tab1-s4"><span class="std std-numref">Table 1.3.2.3</span></a> shows its main specifications.</p>
-<span id="tab1-s4"></span><table border="1" class="docutils align-default" id="id16">
-<caption><span class="caption-number">Table 1.3.2.3 </span><span class="caption-text">Sentinel-3 SLSTR spectral bands.</span><a class="headerlink" href="#id16" title="Permalink to this table">¶</a></caption>
+<span id="tab1-s4"></span><table border="1" class="docutils align-default" id="id17">
+<caption><span class="caption-number">Table 1.3.2.3 </span><span class="caption-text">Sentinel-3 SLSTR spectral bands.</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="3%" />
 <col width="15%" />
@@ -908,8 +919,8 @@ Sentinel-5P is the precursor mission of Sentinel-5 and provides <code class="doc
 <li>Methane <span class="math notranslate nohighlight">\(({\rm CH}_4)\)</span>,</li>
 <li>Formaldehyde <span class="math notranslate nohighlight">\(({\rm CH}_2O)\)</span>.</li>
 </ul>
-<span id="tab1-s5"></span><table border="1" class="docutils align-default" id="id17">
-<caption><span class="caption-number">Table 1.3.2.4 </span><span class="caption-text">Sentinel-5P spectral bands.</span><a class="headerlink" href="#id17" title="Permalink to this table">¶</a></caption>
+<span id="tab1-s5"></span><table border="1" class="docutils align-default" id="id18">
+<caption><span class="caption-number">Table 1.3.2.4 </span><span class="caption-text">Sentinel-5P spectral bands.</span><a class="headerlink" href="#id18" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="5%" />
 <col width="21%" />
@@ -976,9 +987,9 @@ Sentinel-5P is the precursor mission of Sentinel-5 and provides <code class="doc
 <p class="last"><strong>Small activity</strong> <br />
 See the benefits of the lockdown in China <a class="reference external" href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/COVID-19_nitrogen_dioxide_over_China" rel="noopener noreferrer" target="_blank">on air quality</a></p>
 </div>
-<div class="figure align-center" id="id18">
+<div class="figure align-center" id="id19">
 <span id="fig-nox-china"></span><a class="reference external image-reference" href="https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/COVID-19_nitrogen_dioxide_over_China" rel="noopener noreferrer" target="_blank"><img alt="_images/Fig_NOX_China.png" src="_images/Fig_NOX_China.png" /></a>
-<p class="caption"><span class="caption-number">Fig. 1.3.2.2 </span><span class="caption-text">See the benefits of the lockdown in China on air quality (credit: ESA/ATAG medialab – CC BY-SA IGO 3.0).</span><a class="headerlink" href="#id18" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 1.3.2.2 </span><span class="caption-text">See the benefits of the lockdown in China on air quality (credit: ESA/ATAG medialab – CC BY-SA IGO 3.0).</span><a class="headerlink" href="#id19" title="Permalink to this image">¶</a></p>
 </div>
 <p><br /></p>
 <div class="admonition seealso">

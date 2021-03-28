@@ -55,7 +55,7 @@ Some examples of land use classes are:
 
 |br|
 
-.. warning:: Remote sensing systems can provide information only on the physical coverage. Thus **land use CANNOT be determined by analysing satellite images.**
+.. warning:: Remote sensing systems can provide information only on the physical coverage. Thus, **LAND USE CANNOT BE DETERMINED BY ANALYSING SATELLITE IMAGES.**
 
 |br|
 
@@ -166,7 +166,7 @@ Unfortunately, it is hard to tell how much they are “close”!
 
 Let’s now build a reference system made of orthogonal axes that reproduce reflectances in each spectral band. This reference system is called **feature space** and has **ONE AXIS FOR EACH SPECTRAL BAND**.
 
-.. note:: **In the feature space, the spectral signatures become points** (:numref:`Fig8bis2_signature`).
+.. note:: **In the feature space, spectral signatures become points** (:numref:`Fig8bis2_signature`).
 
 |br|
 
@@ -277,8 +277,11 @@ In the example of :numref:`Fig1_SI`, we have:
 
 .. math:: RVI=\frac{0.55}{0.05}=11
 
-Typical values for vegetation cover range from **RVI=4** (parse or sick vegetation) up to **RVI=30** (very dense and very healthy vegetation). |br|
-*Healthy vegetation generally falls between values of 4 to 10.*
+Typical values for vegetation cover range are:
+
+- **RVI=4:** sparse or sick vegetation,
+- **4<RVI<10:** vegetated areas generally falls between these values,
+- **RVI=30:** very dense and very healthy vegetation).
 
 .. note:: Unfortunately, RVI is not bounded from above. That makes difficult to compare values for different vegetation covers.
 
@@ -303,23 +306,23 @@ In the example of :numref:`Fig1_SI`, we have:
 
 The threshold **NDVI=0.2** is often used to differentiate bare ground (NDVI<0.2) from vegetated land (NDVI>0.2). Thus:
 
-- Moderate values (**0.2<NDVI<0.6**) are typical for shrubs, grass and crops,
-- Higher values (**NDVI>0.6**) are typical for forests.
+- **0.2<NDVI<0.6:** moderate values are typical for shrubs, grass and crops,
+- **NDVI>0.6:** higher values are typical for forests.
 
 Opposite to RVI, **FOR VEGETATION COVER** NDVI is bounded from below (often NDVI=0.2) and bounded from above (NDVI=1). Thus, it is a useful index to compare different vegetation covers and types.
 
 .. tip:: **Vegetation amount vs health** |br|
 	If we are looking at a *mixed image pixel with healthy vegetation*, then:
 
-	- Moderate values (**0.2<NDVI<0.4**) are typical for sparse vegetation,
-	- Intermediate values (**0.4<NDVI<0.6**) are typical for moderately-density vegetation,
-	- And higher values (**NDVI>0.6**) are typical for high-density vegetation.
+	- **0.2<NDVI<0.4:** moderate values are typical for sparse vegetation,
+	- **0.4<NDVI<0.6:** intermediate values are typical for moderately-density vegetation,
+	- **NDVI>0.6:** higher values are typical for high-density vegetation.
 
 	On the other hand, if we are looking at a *full vegetated image pixel*:
 
-	- Moderate values (**0<NDVI<0.2**) are typical for very sick vegetation,
-	- Intermediate values (**0.2<NDVI<0.6**) are typical for moderately healthy vegetation,
-	- And higher values (**NDVI>0.6**) are typical for very healthy vegetation.
+	- **0<NDVI<0.2:** moderate values are typical for very sick vegetation,
+	- **0.2<NDVI<0.6:** intermediate values are typical for moderately healthy vegetation,
+	- **NDVI>0.6:** higher values are typical for very healthy vegetation.
 
 While NDVI is meaningful ONLY for vegetated areas, it can be calculated for all land covers. In this case, NDVI will have the following values:
 
@@ -418,7 +421,7 @@ For each class, pick some training samples on the satellite image and label them
 Now we want the classification algorithm to **predict** each image pixel’s **UNKNOWN land cover** based on their spectral signature’s **similarity** with the **KNOWN training samples** (see :ref:`How-to-compare-spectral-signatures`). |br|
 The output is a classification map with all the classes defined by the training samples (:numref:`Fig10_signature`).
 
-.. note:: **In other words, the classification map is a prediction based on the knowledge of some limited training sites.**
+.. note:: **In other words, the classification map is a PREDICTION based on the knowledge of some limited training sites.**
 
 .. _Fig10_signature:
 .. figure:: /Figure/Fig10_signature.png

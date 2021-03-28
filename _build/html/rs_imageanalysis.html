@@ -91,7 +91,7 @@
 <li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#satellite-orbits-and-revisit-time">1.2.1. Satellite orbits and revisit time</a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#digital-images-and-the-em-spectrum">1.2.2. Digital images and the EM spectrum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#spectral-characteristics">1.2.3. Spectral characteristics</a></li>
-<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#spatial-resolution-and-swath-width">1.2.4. Spatial resolution and swath width</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs_fundamentals.html#spatial-resolution-and-area-coverage">1.2.4. Spatial resolution and area coverage</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="rs_fundamentals.html#copernicus-and-the-sentinels">1.3. Copernicus and the Sentinels</a><ul>
@@ -140,7 +140,16 @@
 </ul>
 <p class="caption"><span class="caption-text">Supplementary materials</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="rs_casestudies.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rs_supplementary.html">Introduction to Copernicus Services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-atmosphere-monitoring-service">Copernicus Atmosphere Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-marine-environment-monitoring-service">Copernicus Marine Environment Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-land-monitoring-service">Copernicus Land Monitoring Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-climate-change-service">Copernicus Climate Change Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-security-service">Copernicus Security Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs_supplementary.html#copernicus-emergency-management-service">Copernicus Emergency Management Service</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rs_supplementary.html#examples">Examples</a></li>
 </ul>
 <p class="caption"><span class="caption-text">About</span></p>
 <ul>
@@ -256,7 +265,7 @@ Some examples of land use classes are:</p>
 <p><br /></p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">Remote sensing systems can provide information only on the physical coverage. Thus <strong>land use CANNOT be determined by analysing satellite images.</strong></p>
+<p class="last">Remote sensing systems can provide information only on the physical coverage. Thus, <strong>LAND USE CANNOT BE DETERMINED BY ANALYSING SATELLITE IMAGES.</strong></p>
 </div>
 <p><br /></p>
 </div>
@@ -339,7 +348,7 @@ Unfortunately, it is hard to tell how much they are “close”!</p>
 <p>Let’s now build a reference system made of orthogonal axes that reproduce reflectances in each spectral band. This reference system is called <strong>feature space</strong> and has <strong>ONE AXIS FOR EACH SPECTRAL BAND</strong>.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last"><strong>In the feature space, the spectral signatures become points</strong> (<a class="reference internal" href="#fig8bis2-signature"><span class="std std-numref">Fig. 2.1.5.2</span></a>).</p>
+<p class="last"><strong>In the feature space, spectral signatures become points</strong> (<a class="reference internal" href="#fig8bis2-signature"><span class="std std-numref">Fig. 2.1.5.2</span></a>).</p>
 </div>
 <p><br /></p>
 <div class="figure align-center" id="id18">
@@ -455,8 +464,12 @@ This is the basic greenness vegetation index and it is effective over a wide ran
 <p>In the example of <a class="reference internal" href="#fig1-si"><span class="std std-numref">Fig. 2.2.2.1</span></a>, we have:</p>
 <div class="math notranslate nohighlight">
 \[RVI=\frac{0.55}{0.05}=11\]</div>
-<p>Typical values for vegetation cover range from <strong>RVI=4</strong> (parse or sick vegetation) up to <strong>RVI=30</strong> (very dense and very healthy vegetation). <br />
-<em>Healthy vegetation generally falls between values of 4 to 10.</em></p>
+<p>Typical values for vegetation cover range are:</p>
+<ul class="simple">
+<li><strong>RVI=4:</strong> sparse or sick vegetation,</li>
+<li><strong>4&lt;RVI&lt;10:</strong> vegetated areas generally falls between these values,</li>
+<li><strong>RVI=30:</strong> very dense and very healthy vegetation).</li>
+</ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Unfortunately, RVI is not bounded from above. That makes difficult to compare values for different vegetation covers.</p>
@@ -477,8 +490,8 @@ This is the most known and used greenness vegetation index. Equation <a class="r
 \[NDVI=\frac{0.55-0.05}{0.55+0.05}=0.83\]</div>
 <p>The threshold <strong>NDVI=0.2</strong> is often used to differentiate bare ground (NDVI&lt;0.2) from vegetated land (NDVI&gt;0.2). Thus:</p>
 <ul class="simple">
-<li>Moderate values (<strong>0.2&lt;NDVI&lt;0.6</strong>) are typical for shrubs, grass and crops,</li>
-<li>Higher values (<strong>NDVI&gt;0.6</strong>) are typical for forests.</li>
+<li><strong>0.2&lt;NDVI&lt;0.6:</strong> moderate values are typical for shrubs, grass and crops,</li>
+<li><strong>NDVI&gt;0.6:</strong> higher values are typical for forests.</li>
 </ul>
 <p>Opposite to RVI, <strong>FOR VEGETATION COVER</strong> NDVI is bounded from below (often NDVI=0.2) and bounded from above (NDVI=1). Thus, it is a useful index to compare different vegetation covers and types.</p>
 <div class="admonition tip">
@@ -486,15 +499,15 @@ This is the most known and used greenness vegetation index. Equation <a class="r
 <p><strong>Vegetation amount vs health</strong> <br />
 If we are looking at a <em>mixed image pixel with healthy vegetation</em>, then:</p>
 <ul class="simple">
-<li>Moderate values (<strong>0.2&lt;NDVI&lt;0.4</strong>) are typical for sparse vegetation,</li>
-<li>Intermediate values (<strong>0.4&lt;NDVI&lt;0.6</strong>) are typical for moderately-density vegetation,</li>
-<li>And higher values (<strong>NDVI&gt;0.6</strong>) are typical for high-density vegetation.</li>
+<li><strong>0.2&lt;NDVI&lt;0.4:</strong> moderate values are typical for sparse vegetation,</li>
+<li><strong>0.4&lt;NDVI&lt;0.6:</strong> intermediate values are typical for moderately-density vegetation,</li>
+<li><strong>NDVI&gt;0.6:</strong> higher values are typical for high-density vegetation.</li>
 </ul>
 <p>On the other hand, if we are looking at a <em>full vegetated image pixel</em>:</p>
 <ul class="last simple">
-<li>Moderate values (<strong>0&lt;NDVI&lt;0.2</strong>) are typical for very sick vegetation,</li>
-<li>Intermediate values (<strong>0.2&lt;NDVI&lt;0.6</strong>) are typical for moderately healthy vegetation,</li>
-<li>And higher values (<strong>NDVI&gt;0.6</strong>) are typical for very healthy vegetation.</li>
+<li><strong>0&lt;NDVI&lt;0.2:</strong> moderate values are typical for very sick vegetation,</li>
+<li><strong>0.2&lt;NDVI&lt;0.6:</strong> intermediate values are typical for moderately healthy vegetation,</li>
+<li><strong>NDVI&gt;0.6:</strong> higher values are typical for very healthy vegetation.</li>
 </ul>
 </div>
 <p>While NDVI is meaningful ONLY for vegetated areas, it can be calculated for all land covers. In this case, NDVI will have the following values:</p>
@@ -576,7 +589,7 @@ All you need to know is the spectral signature of the standard/unaltered state o
 The output is a classification map with all the classes defined by the training samples (<a class="reference internal" href="#fig10-signature"><span class="std std-numref">Fig. 2.3.1.2</span></a>).</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last"><strong>In other words, the classification map is a prediction based on the knowledge of some limited training sites.</strong></p>
+<p class="last"><strong>In other words, the classification map is a PREDICTION based on the knowledge of some limited training sites.</strong></p>
 </div>
 <div class="figure align-center" id="id23">
 <span id="fig10-signature"></span><img alt="_images/Fig10_signature.png" src="_images/Fig10_signature.png" />
