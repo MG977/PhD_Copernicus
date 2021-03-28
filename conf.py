@@ -79,6 +79,9 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Add custom CSS here,
+#html_css_files = ['my_theme.css']
+
 # Add any logo here,
 html_logo = "02_Polimi_bandiera_BN_negativo.png"
 

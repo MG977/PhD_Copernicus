@@ -121,7 +121,7 @@ This is a particular kind of low Earth orbit, where satellites circle from north
 
 .. raw:: html
 
-	<video controls src="_static/orbital_periods.h264.mov" width="70%"></video> 
+	<video controls src="_static/orbital_periods.h264.mov" width="500"><align="center"></video> 
 
 *(Credit: NASA, illustration by Robert Simmon).*
 
