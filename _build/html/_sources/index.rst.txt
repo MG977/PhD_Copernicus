@@ -20,7 +20,7 @@ Introduction to multispectral Earth observation
    :maxdepth: 1
    :caption: Supplementary materials
 
-   rs_casestudies.rst
+   rs_supplementary
 
 
 .. toctree::

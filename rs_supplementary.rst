@@ -133,7 +133,8 @@ Overall, the service focuses on two main areas (and four systems):
 
 .. seealso:: For additional information, see the `Copernicus Emergency Management Service web site <https://emergency.copernicus.eu/>`_.
 
-
+|br|
+|br|
 
 Examples
 =========
