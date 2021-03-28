@@ -68,7 +68,8 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 html_theme_options = {
-    'logo_only': False,
+    'logo_only': True,
+    'display_version': False,
     'style_external_links': True,
     'collapse_navigation': False,
 }
@@ -77,6 +78,9 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Add any logo here,
+html_logo = "02_Polimi_bandiera_BN_negativo.png"
 
 # code for making links open in a new tab
 from sphinx.writers.html import HTMLTranslator

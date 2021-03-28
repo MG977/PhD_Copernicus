@@ -14,6 +14,12 @@ Introduction to multispectral Earth observation
    rs_fundamentals.rst
    rs_imageanalysis.rst
    rs_satelliteimages.rst
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Supplementary materials
+
    rs_casestudies.rst
 
 

@@ -62,22 +62,29 @@ On the opposite, to monitor our urban areas, we need satellites with a low orbit
 
 Satellite orbits and revisit time
 ````````````````````````````````````
-**a. Geosynchronous orbit (IGSO)** |br|
-Satellites in geosynchronous orbit circle Earth above the Earth's surface at an ``altitude of 35,800 km`` and a ``speed of about 3 km/s``. This makes geostationary satellites to rptate  ‘stationary’ over a fixed location. |br|
+**a. High Earth orbit (HEO)** |br|
+Satellites in high Earth orbit circle Earth at an ``altitude > 35,800 km``.
 
-**EXAMPLE:** Many satellites used for telecom/broadcasting have a geosynchronous orbit.
+**EXAMPLE:** In this orbit we find satellites for space exploration.
+
+|br|
+
+**a. Geosynchronous orbit (IGSO)** |br|
+Satellites in geosynchronous orbit circle Earth at an ``altitude of 35,800 km`` and a ``speed of about 3 km/s``. This makes geostationary satellites rotate synchronized with the rotation of the Earth.
+
+**EXAMPLE:** Many satellites used for telecommunications/broadcasting have a geosynchronous orbit.
 
 |br|
 
 **b. Geostationary orbit (GEO)** |br|
-This is a particular kind of geosynchronous orbit, where satellites are **parked over the equator.** This makes geostationary satellites to be ‘stationary’ over a fixed location on Earth. |br|
+This is a particular kind of geosynchronous orbit, where satellites are **parked over the equator.** This makes geostationary satellites to be ‘stationary’ over a fixed location on Earth.
 
 **EXAMPLE:** Most of the satellites used for weather forecasts have a geostationary orbit.
 
 |br|
 
 **c. Medium Earth orbit (MEO)** |br|
-Satellites in a medium Earth orbit circle the Earth at an altitude between 1,000 km and 35,800 km, with revisit times defined by their orbital altitude.
+Satellites in a medium Earth orbit circle the Earth at an ``altitude between 1,000 km and 35,800 km``, with variable speed.
 
 **EXAMPLE:** Navigation satellites, like the European Galileo system or the American NAVSTAR-GPS, have a medium Earth orbit.
 
@@ -96,7 +103,7 @@ This is a particular kind of low Earth orbit, where satellites circle from north
 
 **Most of satellites for Earth observation have a Sun-synchronous (SSO) low Earth orbit (LEO), with an** ``altitude between 600 km and 800 km`` **, a** ``speed of approximately 7.5 km/s`` and about ``16 orbits per day``.
 
-.. note:: Depending on the time for imaging the same geographic location (called **revisiting time**), satellites are classified as:
+.. note:: Depending on the time needed for imaging the same geographic location (called **revisiting time**), satellites are classified as:
 
 	- **High revisit time:** < 3 days
 	- **Medium revisit time:** 4 - 16 days
@@ -109,6 +116,14 @@ This is a particular kind of low Earth orbit, where satellites circle from north
 	:align: center
 
 	Satellite orbits (credit: adapted from Mark Mercer, 2011 - CC BY-SA 4.0).
+
+|br|
+
+.. raw:: html
+
+	<video controls src="_static/orbital_periods.h264.mov" width="70%"></video> 
+
+*(Credit: NASA, illustration by Robert Simmon).*
 
 |br|
 
