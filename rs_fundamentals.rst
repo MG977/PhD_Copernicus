@@ -163,6 +163,11 @@ We can think of the different wavelengths as different “colours”.
 
 	The electromagnetic spectrum (credit: NASA – CC BY-SA 3.0).
 
+.. hint:: **Small activity** |br|
+	See how the electromagnetic waves combines with the `EMANIM tool <https://emanim.szialab.org/index.html#>`_ .
+
+|br|
+
 Unfortunately, most of these “colours” and “light” are invisible to our eyes! |br|
 We humans can see only the colours of the **VISIBLE** light. However, many other “colours” exists, and some animals can see them. For instance, snakes can sense the INFRARED (i.e. the heat) and some insects can see the ULTRAVIOLET.
 
