@@ -493,8 +493,3 @@ The mission objective for Sentinel-5P is to provide daily global information on 
 |br|
 
 .. seealso:: For additional information, `discover all the Sentinel satellites <https://www.copernicus.eu/en/about-copernicus/infrastructure/discover-our-satellites>`_
-
-|br|
-|br|
-
-(v.2703211334)

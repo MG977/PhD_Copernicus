@@ -83,7 +83,7 @@ html_static_path = ['_static']
 html_css_files = ['my_theme.css']
 
 # Add any logo here,
-html_logo = "02_Polimi_bandiera_BN_negativo.png"
+html_logo = "logo.png"
 
 # code for making links open in a new tab
 from sphinx.writers.html import HTMLTranslator

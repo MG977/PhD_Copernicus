@@ -132,8 +132,3 @@ Overall, the service focuses on two main areas (and four systems):
 	See the Copernicus Emergency Management system for `flood monitoring and forecast <https://www.efas.eu/efas_frontend/#/home>`_.
 
 .. seealso:: For additional information, see the `Copernicus Emergency Management Service web site <https://emergency.copernicus.eu/>`_.
-
-|br|
-|br|
-
-(v.2103211230)

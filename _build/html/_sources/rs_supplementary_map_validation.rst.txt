@@ -156,8 +156,3 @@ Typically, user’s and producer’s accuracy for a given land cover class are d
 |br|
 
 .. seealso:: For additional information, see the practical guide on `Map Accuracy Assessment and Area Estimation <http://www.fao.org/3/i5601e/i5601e.pdf>`_ of `FAO <http://www.fao.org/home/en/>`_.
-
-|br|
-|br|
-
-(v.2103211230)

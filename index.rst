@@ -21,7 +21,6 @@ Introduction to multispectral Earth observation
    :caption: Supplementary materials
 
    rs_supplementary_map_validation.rst
-   rs_supplementary_copernicus_services.rst
    rs_supplementary_examples.rst
 
 
@@ -31,3 +30,4 @@ Introduction to multispectral Earth observation
 
    author.rst
    disclaimer.rst
+   v.rst

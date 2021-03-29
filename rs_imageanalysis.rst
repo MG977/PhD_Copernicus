@@ -485,8 +485,3 @@ Thus, the Spectral Angle Mapper classifier labels the image pixels based their "
 |br|
 
 .. seealso:: For additional information on the RStoolbox library, see `Tools for Remote Sensing Data Analysis in R <https://bleutner.github.io/RStoolbox/rstbx-docu/sam.html>`_.
-
-|br|
-|br|
-
-(v.2603211850)
