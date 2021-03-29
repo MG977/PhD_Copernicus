@@ -3,9 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+================================================
 Introduction to multispectral Earth observation
 ================================================
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Introduction
+
+   about.rst
+
+   
 .. toctree::
    :maxdepth: 3
    :caption: Contents
@@ -26,8 +35,7 @@ Introduction to multispectral Earth observation
 
 .. toctree::
    :maxdepth: 1
-   :caption: About
+   :caption: Info
 
    author.rst
-   disclaimer.rst
    v.rst

@@ -8,7 +8,7 @@ The author
 	:width: 200px
 	:align: left
 
-**Marco GIANINETTO** is Professor of Remote Sensing and Copernicus Uptake at `Politecnico di Milano <https://www.polimi.it/en/>`_ (Italy), and an Associate at the `National Research Council of Italy. <http://www.irea.cnr.it/en/>`_
+**Marco GIANINETTO** (marco.gianinetto@polimi.it) is Professor of Remote Sensing and Copernicus Uptake at `Politecnico di Milano <https://www.polimi.it/en/>`_ (Italy), and an Associate at the `National Research Council of Italy. <http://www.irea.cnr.it/en/>`_
 
 He is head of the `Laboratory of Remote Sensing <http://www.abclab.test.polimi.it/index.php?id=72>`_ , member of the Governing Council of the `Italian Society of Remote Sensing <https://aitonline.org/en/>`_ , Co-Editor-in-Chief for `European Journal of Remote Sensing <https://www.tandfonline.com/toc/tejr20/current>`_ , Associate Editor for `International Journal of Remote Sensing <https://www.tandfonline.com/toc/tres20/current>`_ , and Associate Editor for `Journal of Applied Remote Sensing <https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing?SSO=1>`_ .
 
